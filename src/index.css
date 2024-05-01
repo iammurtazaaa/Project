@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+
+:root{
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+}
 *{
   margin: 0;
   padding: 0;
@@ -7,7 +12,7 @@
   font-family: "Muli" , sans-serif;
 }
 .navbar{
-  background-color: #ffffff !important;
+  background-color: #fff !important;
 }
 .navbar-brand{
   font-size: 1.9rem !important;
@@ -31,11 +36,11 @@ span{
 h3{
   font-weight: bold;
   cursor: pointer;
-  color: grey;
+  color: gray;
 }
 strong{
  font-weight: 600;
- color: grey;
+ color: gray;
 }
 .brand-name{
   font-size: 2.9rem;
@@ -70,21 +75,21 @@ strong{
   top: 50%;
   left: 50%;
   transform: translate(-50% , -50%);
-  color: #ffffff;
+  color: var(--primary-color);
   font-weight: 800;
 
 }
 
 #about-icons{
-  background-color: #000000;
-  color: #ffffff;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 
 
 /* Home animations */
 #header .btn-get-started:hover{
-  color: #ffffff;
+  color: var(--primary-color);
   background: #3498db;
 }
 #header .animated{
@@ -127,6 +132,9 @@ strong{
   margin: 25px 0;
 }
   
+}
+#moon-img{
+  width: 1.8rem;
 }
 
 

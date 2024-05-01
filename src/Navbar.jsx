@@ -61,6 +61,9 @@ const Navbar = () => {
                         Contact
                       </NavLink>
                     </li>
+                    <li>
+                    <img src="moon.png" alt=""  id="moon-img" className="mt-2 ms-4"/>
+                    </li>
                   </ul>
                 </div>
               </div>
